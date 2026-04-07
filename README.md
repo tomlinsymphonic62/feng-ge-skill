@@ -272,4 +272,8 @@ MIT — 随便用，随便改，随便造。
 
 MIT License © [YixiaJack](https://github.com/YixiaJack)
 
+<br>
+
+微信公众号：**游岛安然**
+
 </div>
