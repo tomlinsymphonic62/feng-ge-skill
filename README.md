@@ -17,7 +17,7 @@
 基于峰哥亡命天涯公开视频、直播、采访等素材研究整理。<br>
 不是复读语录，是用他看世界的方式帮你分析问题。
 
-[看效果](#效果示例) · [安装](#安装) · [他蒸馏了什么](#他蒸馏了什么) · [诚实边界](#诚实边界)
+[看效果](#效果示例) · [在哪里可以用](#在哪里可以用) · [安装](#安装) · [他蒸馏了什么](#他蒸馏了什么) · [诚实边界](#诚实边界)
 
 </div>
 
@@ -85,13 +85,89 @@
 
 ---
 
+## 在哪里可以用
+
+这个 Skill 运行在 **Claude Code** 环境中。Claude Code 是 Anthropic 官方的编程助手，支持以下平台：
+
+| 平台 | 说明 |
+|------|------|
+| **终端 CLI** | 命令行直接用，最原始的方式 |
+| **VS Code 扩展** | 在 VS Code 里装 Claude Code 扩展即可 |
+| **JetBrains 扩展** | IntelliJ / PyCharm / WebStorm 等 |
+| **桌面应用** | Mac / Windows 独立客户端 |
+| **网页版** | [claude.ai/code](https://claude.ai/code) 在线使用 |
+
+> **注意**：普通的 Claude 聊天（claude.ai）和 Claude API **不支持** Skill。必须在 Claude Code 环境中使用。
+
+---
+
 ## 安装
+
+### 前置条件
+
+你需要先安装 **Node.js**（v18 以上）和 **Claude Code**。
+
+<details>
+<summary><strong>第一步：安装 Node.js（已有的跳过）</strong></summary>
+
+1. 打开 [nodejs.org](https://nodejs.org/)，下载 **LTS 版本**
+2. 双击安装包，一路点「下一步」即可
+3. 安装完成后打开终端（Windows 用 PowerShell，Mac 用 Terminal），输入以下命令验证：
+
+```bash
+node --version
+```
+
+如果显示 `v18.x.x` 或更高版本号，说明安装成功。
+
+</details>
+
+<details>
+<summary><strong>第二步：安装 Claude Code CLI（已有的跳过）</strong></summary>
+
+在终端中运行：
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+**Windows 用户注意**：Claude Code 需要 Git Bash。如果运行 `claude` 提示找不到 bash：
+
+1. 安装 [Git for Windows](https://git-scm.com/downloads/win)
+2. 在 PowerShell 中设置环境变量：
+```powershell
+[System.Environment]::SetEnvironmentVariable("CLAUDE_CODE_GIT_BASH_PATH", "C:\Program Files\Git\bin\bash.exe", "User")
+```
+3. 重新打开 PowerShell 窗口
+
+</details>
+
+<details>
+<summary><strong>第三步：安装峰哥 Skill</strong></summary>
+
+在终端中运行：
 
 ```bash
 npx skills add YixiaJack/feng-ge-skill
 ```
 
-然后在 Claude Code 里触发：
+看到 `✔ Skill installed` 就成功了。
+
+</details>
+
+### 如果你不想用命令行（手动安装）
+
+1. 去 [GitHub 仓库](https://github.com/YixiaJack/feng-ge-skill) 下载 `SKILL.md` 文件
+2. 在你的项目根目录创建 `.claude/skills/` 文件夹
+3. 把 `SKILL.md` 放进去
+
+就这么简单，不需要任何命令。
+
+---
+
+## 使用
+
+在 Claude Code 里输入触发词：
 
 ```
 > 峰哥
